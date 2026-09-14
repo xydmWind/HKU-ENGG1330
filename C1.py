@@ -1,1 +1,0 @@
-print("Hello, ENGG1330!\nReady to code.")
