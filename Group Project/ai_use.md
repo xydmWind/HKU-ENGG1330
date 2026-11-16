@@ -26,6 +26,29 @@ Generative AI used: Yes
 
 ## Entry
 
+- **Member and date:** Zhang Chenrui, 2026-10-29
+
+- **Tool and model/version, where available:** Codex (GPT 6 Astra)
+
+- **Purpose:** Add clear inline comments to the code so teammates can easily understand the implementation logic and module functions.
+
+- **Relevant prompts and outputs used, or retained transcript location:** 
+
+  > Prompts: Can you add inline comments to my Python code files to explain what each function and key logic block does, so that my teammates can easily understand how my part works?
+  >
+  > Outputs: Completed.
+  >
+  > - Added module overviews and inline comments explaining text formatting, display layout parameters, and clue/content handling.
+  > - Kept all executable code logic unchanged.
+
+- **Files/materials affected:** All Python code files
+
+- **What we kept, changed or rejected:** Kept the inline explanations for core functions and non-trivial logic; removed redundant line-by-line comments on self-explanatory assignments to keep the files clean and readable.
+
+- **How we checked it; tests and corrections:** Reviewed every added comment against the actual code execution flow, ran the game to confirm no syntax errors or unintended behavioral changes were introduced, and verified readability with teammates.
+
+## Entry
+
 - **Member and date:** Liu Henghui, 2026-10-29 to 2026-11-04.
 
 - **Tool and model/version, where available:** Codex (GPT 6.1 Sol, GPT 6 Astra), ElevenLabs (text-to-speech Eleven v4 (free trial))
@@ -57,3 +80,25 @@ Generative AI used: Yes
 - **Files/materials affected:** `README.md`
 - **What we kept, changed or rejected:** Keep the necessary sentences and removed superfluous descriptions.
 - **How we checked it; tests and corrections:** Check every sentences with the code and gameplay.
+
+## Entry
+
+- **Member and date:** Zhang Chenrui, 2026-11-10
+
+- **Tool and model/version, where available:** Codex (GPT 6 Astra)
+
+- **Purpose:** Generate an interactive HTML to visually present the overall code structure, module dependencies, and core functional workflows of the project.
+
+- **Relevant prompts and outputs used, or retained transcript location:** 
+
+  > Prompts: Based on our project source files, create a standalone HTML visualization page that clearly illustrates the codebase architecture, module relationships, and core gameplay functions for presentation and team reference.
+  >
+  > Outputs: Completed.
+  >
+  > - Built a self-contained HTML page featuring an interactive module architecture diagram, function-level breakdowns, and a step-by-step execution flow of the game loop.
+
+- **Files/materials affected:** `game-code-guide.html`
+
+- **What we kept, changed or rejected:** Kept the high-level architecture diagram, module dependency mapping, and interactive function descriptions.
+
+- **How we checked it; tests and corrections:** Opened the HTML file in a browser to verify layout rendering and interactive components.
